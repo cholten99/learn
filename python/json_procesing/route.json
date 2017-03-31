@@ -1,12 +1,13 @@
 {
-    "22": {
-        "route_start_time": "9:20",
-        "route_end_time": "10:30",
-        "stop_name": "alpha"
-    },
-    "69": {
-        "route_start_time": "14:10",
-        "route_end_time": "15:50",
-        "stop_name": "beta"
-    },
+	"bus_routes": [{
+		"route_name": "22",
+		"route_start_time": "9:20",
+		"route_end_time": "10:30",
+		"stop_names": ["alpha", "gamma"]
+	}, {
+		"route_name": "69",
+		"route_start_time": "14:10",
+		"route_end_time": "15:50",
+		"stop_names": ["beta", "gamma", "Delta"]
+	}]
 }
